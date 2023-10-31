@@ -1,0 +1,115 @@
+@media (min-width:1000px){
+body{
+    margin: 2rem;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(235, 150, 150);
+    text-align: center;
+}
+nav>a{
+    text-align: center;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: 1rem;
+    background-color: rgb(240, 194, 233);
+}
+
+nav>a:hover{
+    background-color: aquamarine;
+}
+
+.aboutMe{
+    background-color: rgba(202, 199, 199, .7);
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    display: inline-block;
+    margin: .5rem;
+    width: 70%;
+}
+
+.pic{
+    background-color: rgba(202, 199, 199, .7);
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    margin: 1rem;
+    width: 50%;
+}
+
+.maps{
+    background-color: rgba(202, 199, 199, .7);
+    padding: 1rem 0 1rem 0;
+    margin: .2rem;    
+    width: auto;
+}
+
+.resume{
+    background-color: rgba(202, 199, 199, .7);
+    padding: 1rem;
+    margin: 0 7rem 0 7rem;    
+    width: auto;
+}
+.footer{
+    background-color: rgba(202, 199, 199, .7);
+    padding: 1rem;
+
+}
+}
+
+@media (min-width:500px) {
+    body{
+        margin: 2rem;
+        font-family: 'Lato', sans-serif;
+        background-color: rgb(235, 150, 150);
+    }
+
+    nav>a{
+        text-align: center;
+        padding: 1rem 1rem;
+        display: inline-block;
+        margin: 1rem;
+        background-color: rgb(240, 194, 233);
+    }
+    
+    nav>a:hover{
+        background-color: aquamarine;
+    }
+        
+    .aboutMe{
+        background-color: rgba(202, 199, 199, .7);
+        padding: 0 1rem 1rem 1rem;
+        text-align: center;
+        display: inline-block;
+        margin: .5rem;
+        width: 50%;
+    }
+    
+    .pic{
+        background-color: rgba(202, 199, 199, .7);
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+        display: inline-block;
+        margin: .5rem .5rem .5rem .5rem;
+        width: 50%;
+    }
+    
+    .maps{
+        background-color: rgba(202, 199, 199, .7);
+        padding: 1rem 0 1rem 0;
+        text-align: center;
+        display: inline-block;
+        margin: .2rem;
+        width: 50%;
+    }
+    .resume{
+        background-color: rgba(202, 199, 199, .7);
+        padding: 1rem;
+        margin: 0 7rem 0 7rem;    
+        width: auto;
+    }
+    .footer{
+        background-color: rgba(202, 199, 199, .7);
+        padding: 1rem;
+    
+    }
+}
